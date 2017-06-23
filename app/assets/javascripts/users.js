@@ -1,7 +1,7 @@
 /* global $, Stripe */
 
 $(document).on('turbolinks:load', function(){
-    var theForm = $('#pro-form');
+    var theForm = $('#pro_form');
     var submitBtn = $('#form-signup-btn');
 
     Stripe.setPublishableKey($('meta[name="stripe-key"]').attr('content'));
